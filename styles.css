@@ -1,0 +1,107 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.buttonStyle {
+	box-sizing: border-box;
+	background-color: yellow;
+	padding: 12px 16px 12px 16px;
+	border-radius: 4px;
+	border: none;
+	transition: 250ms;
+}
+
+#buttonDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 32px;
+	padding: 4px;
+}
+
+.buttonStyle:hover {
+	background-color: gold;
+	box-sizing:content-box;
+	cursor:pointer;
+
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin-top: 32px;
+}
+
+#imageWrapper {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 24px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+#profilePic {
+	height: 100px;
+}
+
+#romeoPic {
+	margin-top: 12px;
+	border-radius: 8px;
+}
+
+#foodRec {
+	box-sizing: border-box;
+	background-color: yellow;
+	padding: 12px 16px 12px 16px;
+	border-radius: 4px;
+	border: none;
+	transition: 250ms;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+#foodRec:hover {
+	background-color: gold;
+	box-sizing:content-box;
+	cursor:pointer;
+}
+
+#recDiv {
+	display: flex;
+}
